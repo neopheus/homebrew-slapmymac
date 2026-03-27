@@ -1,6 +1,6 @@
 cask "slapmymac" do
-  version "1.6.0"
-  sha256 "c26a99502444ee9d9c1f263cd732be1fec4fb3e6f90b8286d979edac8283af0b"
+  version "1.6.1"
+  sha256 "708700efa68a07f19a1fb6a153a8c7fa418477ed38e44e9e3e44b694451f6378"
 
   url "https://github.com/neopheus/slapmymac/releases/download/v#{version}/SlapMyMac.dmg"
   name "SlapMyMac"
@@ -14,6 +14,5 @@ cask "slapmymac" do
 
   zap trash: [
     "~/Library/Preferences/com.slapmymac.app.plist",
-    "~/Library/Application Support/SlapMyMac",
   ]
 end
